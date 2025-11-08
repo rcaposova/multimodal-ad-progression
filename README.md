@@ -7,9 +7,9 @@ Jupyter notebooks and results for multimodal AD progression modeling (ADNI): CNN
 ## Supplementary Materials
 
 Code is available in the supplementary materials:
-- **SM1.ipynb** – Hypotheses 1 & 2  
+- **SM1.ipynb**
   *Evaluates homoscedastic uncertainty weighting and saliency/snapshot interpretability using the multimodal CNN–BiLSTM framework.*
-- **SM2.ipynb** – Hypothesis 3  
+- **SM2.ipynb**
   *Implements CVAE–MDN generative tau imputation and downstream evaluation in CNN–BiLSTM.*
 - **SM3.zip** – Logs and results  
   *Contains model outputs, per-fold metrics, paired t-tests, and reproducibility artifacts produced by SM1–SM2.*
