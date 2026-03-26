@@ -1,19 +1,19 @@
 # multimodal-ad-progression
 
-Jupyter notebooks and results for multimodal AD progression modeling (ADNI): CNN–BiLSTM vs. homoscedastic weighting, saliency/snapshot fidelity, and CVAE–MDN tau imputation with paired cross-fold statistics.
+Jupyter notebooks and audit code for multimodal Alzheimer’s disease progression modeling in ADNI, including split-safe preprocessing, longitudinal tau imputation, downstream multimodal prediction, interpretability analyses, and predictor-audit checks.
 
 ---
 
 ## Supplementary Materials
 
-Code is available in the supplementary materials:
-- **SM1.ipynb**
-  *Evaluates homoscedastic uncertainty weighting and saliency/snapshot interpretability using the multimodal CNN–BiLSTM framework.*
-- **SM2.ipynb**
-  *Implements CVAE–MDN generative tau imputation and downstream evaluation in CNN–BiLSTM.*
-- **SM3.zip** – Logs and results  
-  *Contains model outputs, per-fold metrics, paired t-tests, and reproducibility artifacts produced by SM1–SM2.*
+- **SM1.ipynb**  
+  *Contains the main analysis workflow, including split-safe preprocessing, longitudinal tau imputation, downstream multimodal modeling, attribution/snapshot evaluation, and post hoc regression scatter plots.*
 
+- **SM2.ipynb**  
+  *Contains supplementary occlusion heatmaps.*
+
+- **predictor_audit.py**  
+  *Provides a split-specific predictor audit to screen for direct forbidden target columns and suspicious target-adjacent predictor names, and exports summary tables and review files for leakage checks.* 
 ---
 
 ## Dataset
